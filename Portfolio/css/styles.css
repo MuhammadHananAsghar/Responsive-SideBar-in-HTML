@@ -1,0 +1,140 @@
+/* 
+#F7F6F3
+#4D5498
+#2E2D32
+#164B4D
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100vh;
+    background: #FFF;
+    overflow: hidden;
+}
+main{
+    height: 100vh;
+    display: flex;
+}
+/* Aside */
+main .aside{
+    background: #040404;
+    width: 4rem;
+    height: 100%;
+    padding: 1rem 0rem;
+    transition: all 0.2s ease-out;
+}
+main .aside .asideHeader{
+    color: #FFF;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s ease-out;
+    display: none;
+}
+#open{
+   display: block;
+}
+main .aside .asideHeader i{
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+main .aside .asideHeader i:hover{
+    color: #E3E3E3;
+}
+main .aside .asideItems{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+}
+main .aside .asideItems .asideItem{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 1.1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 10px 10px 10px 22px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+main .aside .asideItems .asideItem .icon{
+    display: none;
+}
+main .aside .asideItems .asideItem:hover{
+    color: #E3E3E3;
+    background: red;
+}
+main .aside .asideItems .asideItem i{
+    font-size: 15px;
+    padding-right: 0.5rem;
+    transition: all 0.2s ease-out;
+}
+main .aside .asideItems .asideItem .text{
+    display: none;
+}
+main .aside .asideItems .asideItem .icon{
+    display: block;
+}
+main .aside .menuBtn{
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+main .aside .menuBtn:hover{
+    color: #E3E3E3;
+}
+
+/* Home */
+.main_sec{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main_sec .home{
+    background: orange;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.main_sec .about{
+    background: green;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.main_sec .education{
+    background: blue;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.main_sec .certificates{
+    background: purple;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.main_sec .contact{
+    background: pink;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.mg_sec{
+    padding: 1.5rem;
+}
